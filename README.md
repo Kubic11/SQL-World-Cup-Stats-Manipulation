@@ -3,16 +3,19 @@ Foi inicialmente criada uma base de dados com informações sobre os Mundiais, d
 
 
   Modelo UML
+  
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/95fd9230-1663-4c8a-b2e1-43a814a745d5)
 
 
 
   Modelo Relacional
+  
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/afcb3373-e570-4275-afe3-0fb439159cf9)
 
 
 
 ## Preview
+
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/bf466746-2edb-4258-bb57-875840169aa0)
 
 
