@@ -5,7 +5,8 @@ Foi inicialmente criada uma base de dados com informações sobre os Mundiais, d
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/7c1ffb85-cfdb-45d0-879a-72ebac782b77)
 
   Modelo Relacional
-![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/e54637e5-54d6-48f9-9567-a08679527f1a)
+![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/afcb3373-e570-4275-afe3-0fb439159cf9)
+
 
 ## Preview
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/990141bc-acf5-4616-a002-903fc80e49a8)
