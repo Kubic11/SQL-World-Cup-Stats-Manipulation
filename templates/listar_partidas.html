@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>
+    <a href="/mundiais/{{ano}}">Back</a>
+</p>
+
+
+<h1>Partidas de {{ ano }}</h1>
+<p>
+    <a href="/mundiais/{{ano}}/partidas/detalhes"> Informações sobre as equipas de arbitragem</a>
+</p>
+
+<table>
+  <tr>
+    <th>
+      Data/Hora
+    </th>
+    <th>
+      Estádio
+    </th>
+    <th>
+      Cidade
+    </th>
+    <th>
+      "Casa"
+    </th>
+    <th>
+      Golos da "Casa"
+    </th>
+    <th>
+      Golos de "Fora"
+    </th>
+    <th>
+      "Fora"
+    </th>
+    <th>
+      Espectadores
+    </th>
+  </tr>
+  {% for p in partidas %}
+  <tr>
+    <td> 
+      <div id = "datas">
+        {{ p.data.replace("\"","")}}
+      </div>
+    </td> 
+    <td>
+      {{ p.estadio.replace("\"","") }}
+    </td> 
+    <td>
+      {{ p.cidade.replace("\"","") }}
+    </td> 
+    <td>
+      {{ p.sigla_eqcasa }}
+    </td> 
+    <td>
+      {{ p.golos_eqcasa }}
+    </td> 
+    <td>
+      {{ p.golos_eqfora }}
+    </td>
+    <td>
+      {{ p.sigla_eqfora }}
+    </td>
+    <td>
+      {{ p.espectadores }}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}

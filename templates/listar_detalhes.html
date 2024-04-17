@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p>
+    <a href="/mundiais/{{ano}}/partidas">Back</a>
+</p>
+
+
+<h1>Equipas de Arbitragem</h1>
+
+<table>
+  <tr>
+    <th>
+      Data/Hora
+    </th>
+    <th>
+      Árbitro principal
+    </th>
+    <th>
+      Assistente 1
+    </th>
+    <th>
+      Assistente 2
+    </th>
+  </tr>
+  {% for d in detalhes  %}
+  <tr>
+    <td>
+      <div id = "datas">
+        {{ d.data.replace("\"","")}}
+      </div>
+  
+    </td> 
+    <td>
+      {{ d.arbitro }}
+    </td> 
+    <td>
+      {{ d.assistente1 }}
+    </td> 
+    <td>
+      {{ d.assistente2 }}
+    </td> 
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}

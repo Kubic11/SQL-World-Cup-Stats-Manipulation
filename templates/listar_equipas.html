@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Equipas</h1>
+
+<table>
+  <tr>
+    <th>
+      Sigla
+    </th>
+    <th>
+      Nome
+    </th>
+    <th>
+      Nº de participações
+    </th>
+  </tr>
+  {% for e in equipas %}
+  <tr>
+    <td>
+      {{ e.idSigla }}
+    </td> 
+    <td>
+      {{ e.nome }}
+    </td>
+    <td>
+      {{ e.n_participacoes }}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}

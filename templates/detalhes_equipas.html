@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p>
+    <a href="/equipas/"><strong>Back</strong></a>
+</p>
+ 
+
+
+<h1>{{detalhes.nome}}</h1>  <!-- Nome da equipa que estou a contar as participações -->
+
+
+<table>
+    <tr>
+            <td><strong>Participações</strong></td> <!-- o resuldado do código sql ou seja o nº de participaçoes-->
+            <td>{{ detalhes.participacoes}}</td>
+    </tr>
+    <tr>
+            <td><strong>Primeiro lugar</strong></td>
+            <td>{{ detalhes.primeiro_lugar}}</td>
+    </tr>
+    <tr>
+            <td><strong>Segundo lugar</strong></td>
+            <td>{{ detalhes.segundo_lugar}}</td>
+    </tr>
+    <tr>
+            <td><strong>Terceiro lugar</strong></td>
+            <td>{{ detalhes.terceiro_lugar}}</td>
+    </tr>
+    <tr>
+            <td><strong>Quarto lugar</strong></td>
+            <td>{{ detalhes.quarto_lugar}}</td>
+    </tr>
+</table>
+
+
+
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>Mundiais</h1>
+
+<table>
+  <tr>
+    <th>
+      Ano
+    </th>
+    <th>
+      Host
+    </th>
+    <th>
+      Vencedor
+    </th>
+    <th>
+      Segundo lugar
+    </th>
+    <th>
+      Terceiro lugar
+    </th>
+    <th>
+      Quarto lugar
+    </th>
+  </tr>
+  {% for m in mundiais %}
+  <tr>
+    <td>
+      <a href="/mundiais/{{ m.ano }}/"> {{m.ano}} </a>
+    </td> 
+    <td>
+      {{ m.host }}
+    </td> 
+    <td>
+      {{ m.vencedor }}
+    </td> 
+    <td>
+      {{ m.segundo_lugar }}
+    </td> 
+    <td>
+      {{ m.terceiro_lugar }}
+    </td> 
+    <td>
+      {{ m.quarto_lugar }}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}

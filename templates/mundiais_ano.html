@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>
+  <a href="/mundiais">Back</a>
+</p>
+
+
+<h1>Mundial {{ ano }}</h1>
+
+<table>
+  <tr>
+    <th>
+      <a href="/mundiais/{{ ano }}/partidas">Partidas realizadas</a>
+    </th>
+    <th>
+      <a href="/mundiais/{{ ano }}/equipas_participantes">Equipas participantes </a>
+    </th>
+  </tr>
+  {% for p in participacoes %}
+  <tr>
+    <td>
+      {{ p.n_partidas }}
+    </td>
+    <td>
+      {{ p.n_equipas }}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+
+{% endblock %}
+
