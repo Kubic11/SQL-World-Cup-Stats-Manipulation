@@ -2,7 +2,8 @@ Este projeto foi realizado no âmbito da disciplina de Base de Dados.
 Foi inicialmente criada uma base de dados com informações sobre os Mundiais, desde 1930 a 2014 e após isso elaborei um website capaz de manipular, com instruções SQL, os dados da bd.
 
   Modelo UML
-![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/7c1ffb85-cfdb-45d0-879a-72ebac782b77)
+![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/39d2c5ca-9433-4846-98a3-df0b434f4abf)
+
 
   Modelo Relacional
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/afcb3373-e570-4275-afe3-0fb439159cf9)
