@@ -10,7 +10,8 @@ Foi inicialmente criada uma base de dados com informações sobre os Mundiais, d
 
 
 ## Preview
-![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/990141bc-acf5-4616-a002-903fc80e49a8)
+![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/7791c7bd-e905-4f0e-bfbf-c15fec54b5c5)
+
 
 
 ## Dependencies
