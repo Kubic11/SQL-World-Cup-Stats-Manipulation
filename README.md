@@ -22,7 +22,6 @@ Foi inicialmente criada uma base de dados com informações sobre os Mundiais, d
 
 
 
-
 ## Dependencies
 Python3
 
