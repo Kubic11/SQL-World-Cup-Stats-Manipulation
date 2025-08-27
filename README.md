@@ -1,14 +1,13 @@
-Este projeto foi realizado no âmbito da disciplina de Base de Dados. 
-Foi inicialmente criada uma base de dados com informações sobre os Mundiais, desde 1930 a 2014 e após isso elaborei um website capaz de manipular, com instruções SQL, os dados da bd.
+This project was carried out within the scope of the Databases course. A database with information about the World Cups, from 1930 to 2014, was initially created, and afterwards I developed a website capable of manipulating the database data using SQL instructions.
 
 
-  Modelo UML
+  UML Model
   
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/95fd9230-1663-4c8a-b2e1-43a814a745d5)
 
 
 
-  Modelo Relacional
+  Relational Model
   
 ![image](https://github.com/Kubic11/SQL-World-Cup-Stats-Manipulation/assets/96316928/afcb3373-e570-4275-afe3-0fb439159cf9)
 
